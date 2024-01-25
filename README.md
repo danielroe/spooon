@@ -42,11 +42,11 @@ pnpm preview
 
 You should be able to deploy this repository with zero or minimal configuration (just make sure to set the ).
 
-- [Azure](https://nuxt.com/docs/deployment/azure)
-- [Cloudflare Workers](https://nuxt.com/docs/deployment/cloudflare)
-- [Firebase Hosting](https://nuxt.com/docs/deployment/firebase)
-- [Netlify](https://nuxt.com/docs/deployment/netlify)
-- [Vercel](https://nuxt.com/docs/deployment/vercel)
+- [Azure](https://nuxt.com/deploy/azure)
+- [Cloudflare Workers](https://nuxt.com/deploy/cloudflare)
+- [Firebase Hosting](https://nuxt.com/deploy/firebase)
+- [Netlify](https://nuxt.com/deploy/netlify)
+- [Vercel](https://nuxt.com/deploy/vercel)
 - ... and more
 
 ## License
