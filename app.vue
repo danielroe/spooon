@@ -6,10 +6,10 @@
     <div class="flex flex-row gap-1 mt-2">
       <UBadge v-for="label in recipe.dishTypes" :label="label" :variant="'subtle'" />
     </div>
-    zection class="mt-4 flex flex-col md:flex-row-reverse gap-4 w-full">
+    <section class="mt-4 flex flex-col md:flex-row-reverse gap-4 w-full">
       <NuxtImg :src="recipe.image" :alt="recipe.title" class="object-cover w-full" />
       <p class="text-lg max-w-[40ch]" v-html="recipe.summary" />
-    </ection>
+    </section>
     <div class="flex flex-col md:flex-row gap-2 md:gap-8">
     <section class="py-2 md:py-8 min-w-12">
       <div class="flex flex-col md:flex-row justify-between md:items-center">
