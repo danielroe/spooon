@@ -1,6 +1,6 @@
 <template>
-  <UContainer v-if="recipe">
-    <h1 class="mt-4 font-bold text-xl pt-12">
+  <UContainer v-if="recipe" class="py-16">
+    <h1 class="font-bold text-xl">
       {{ recipe.title }}
     </h1>
     <div class="flex flex-row gap-1 mt-2">
@@ -15,7 +15,7 @@
         <div class="flex flex-col md:flex-row justify-between md:items-center">
           <h2 class="text-lg">Ingredients</h2>
           <label class="flex flex-row md:flex-row-reverse items-center gap-2 mt-2 text-sm">
-            <UToggle v-model="metric" />
+            <UToggle v-model="metric" :aria-label="`Switch to ${metric ? 'US' : 'metric'} units`" />
             metric
           </label>
         </div>
@@ -41,7 +41,7 @@
         </ol>
       </section>
     </div>
-    <UButton external :to="recipe.sourceUrl" class="mt-4">
+    <UButton external :to="recipe.sourceUrl" class="mt-4 text-lg">
       View original recipe on {{ recipe.sourceName }}
     </UButton>
   </UContainer>
@@ -61,6 +61,12 @@ const columns = columnsToShow.map(col => ({ key: col, label: col }))
 const metric = ref(true)
 const unit = computed(() => metric.value ? 'metric' : 'us')
 
+useServerHead({
+  htmlAttrs: {
+    lang: 'en',
+  },
+})
+
 useServerSeoMeta({
   title: recipe.value!.title,
   description: recipe.value!.summary,
@@ -74,6 +80,6 @@ useServerSeoMeta({
 
 <style>
 p a {
-  @apply text-primary hover:underline;
+  @apply text-primary hover:underline font-bold;
 }
 </style>
