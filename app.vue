@@ -14,6 +14,10 @@
       <section class="py-2 md:py-8 min-w-12">
         <div class="flex flex-col md:flex-row justify-between md:items-center">
           <h2 class="text-lg">Ingredients</h2>
+          <label class="flex flex-row md:flex-row-reverse items-center gap-2 mt-2 text-sm">
+            <UToggle v-model="metric" />
+            metric
+          </label>
         </div>
         <UTable class="mt-2" :rows="recipe.extendedIngredients" :columns="columns">
           <template #name-data="{ row }">
