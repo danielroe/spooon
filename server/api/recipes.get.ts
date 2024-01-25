@@ -71,6 +71,7 @@ export default defineCachedEventHandler(async event => {
   try {
     return z.parse(z.array(recipeSchema), recipes)
   } catch (e) {
+    // @ts-expect-error untyped error
     console.log(e.issues.map(i => i.path))
     return []
   }
