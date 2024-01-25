@@ -1,6 +1,6 @@
 <template>
-  <UContainer v-if="recipe" class="py-16">
-    <h1 class="font-bold text-xl">
+  <UContainer v-if="recipe">
+    <h1 class="font-bold text-xl mt-12 md:mt-24">
       {{ recipe.title }}
     </h1>
     <div class="flex flex-row gap-1 mt-2">
@@ -41,7 +41,7 @@
         </ol>
       </section>
     </div>
-    <UButton external :to="recipe.sourceUrl" class="mt-4 text-lg">
+    <UButton external :to="recipe.sourceUrl" class="mt-4 font-bold mb-24">
       View original recipe on {{ recipe.sourceName }}
     </UButton>
   </UContainer>
