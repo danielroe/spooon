@@ -56,6 +56,16 @@ const columns = columnsToShow.map(col => ({ key: col, label: col }))
 
 const metric = ref(true)
 const unit = computed(() => metric.value ? 'metric' : 'us')
+
+useServerSeoMeta({
+  title: recipe.value!.title,
+  description: recipe.value!.summary,
+  ogTitle: recipe.value!.title,
+  ogDescription: recipe.value!.summary,
+  ogImage: recipe.value!.image,
+  twitterCard: 'summary_large_image',
+  ogUrl: 'https://nuxt-spooon.vercel.app'
+})
 </script>
 
 <style>
