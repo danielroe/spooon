@@ -7,7 +7,7 @@
       <UBadge v-for="label in recipe.dishTypes" :label="label" :variant="'subtle'" />
     </div>
     <section class="mt-4 flex flex-col md:flex-row-reverse gap-4 w-full">
-      <NuxtImg v-if="recipe.image" :src="recipe.image" :alt="recipe.title" class="object-cover w-full" />
+      <NuxtImg v-if="recipe.image" :src="recipe.image" :alt="recipe.title" class="object-cover w-full" v-bind="recipe.image.match(/-(?<width>\d+)x(?<height>\d+)\./)?.groups" />
       <p class="text-lg max-w-[40ch]" v-html="recipe.summary" />
     </section>
     <div class="flex flex-col md:flex-row gap-2 md:gap-8">
