@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   valibot:
-    specifier: ^0.27.0
-    version: 0.27.0
+    specifier: ^0.35.0
+    version: 0.35.0
 
 devDependencies:
   '@nuxt/image':
@@ -6947,8 +6947,8 @@ packages:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
     dev: true
 
-  /valibot@0.27.0:
-    resolution: {integrity: sha512-1Wv0FfiosoAYruPhueHJgJtgj18KlUoBaIEeCefCEsohStcJQWp3jL59J8Tj9w8jiuQ3USkZGH8BtzDHDGgdxQ==}
+  /valibot@0.35.0:
+    resolution: {integrity: sha512-+i2aCRkReTrd5KBN/dW2BrPOvFnU5LXTV2xjZnjnqUIO8YUx6P2+MgRrkwF2FhkexgyKq/NIZdPdknhHf5A/Ww==}
     dev: false
 
   /validate-npm-package-license@3.0.4:
