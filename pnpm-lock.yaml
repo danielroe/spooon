@@ -23,8 +23,8 @@ devDependencies:
     specifier: 3.5.13
     version: 3.5.13(typescript@5.7.2)
   vue-router:
-    specifier: 4.4.5
-    version: 4.4.5(vue@3.5.13)
+    specifier: 4.5.0
+    version: 4.5.0(vue@3.5.13)
 
 packages:
 
@@ -2479,6 +2479,7 @@ packages:
 
   /b4a@1.6.7:
     resolution: {integrity: sha512-OnAYlL5b7LEkALw87fUVafQw5rVR9RjwGd4KUwNQ6DrrNmaVaUCgLipfVlzrPQ4tWOR9P0IXGNOx50jYCCdSJg==}
+    requiresBuild: true
     dev: true
 
   /balanced-match@1.0.2:
@@ -3506,6 +3507,7 @@ packages:
 
   /fast-fifo@1.3.2:
     resolution: {integrity: sha512-/d9sfos4yxzpwkDkuN7k2SqFKtYNmCTzgfEpz82x34IM9/zc8KGxQoXg1liNC/izpRM/MBdt44Nmx41ZWqk+FQ==}
+    requiresBuild: true
     dev: true
 
   /fast-glob@3.3.2:
@@ -4954,13 +4956,13 @@ packages:
       unhead: 1.11.11
       unimport: 3.13.3(rollup@4.27.4)
       unplugin: 1.16.0
-      unplugin-vue-router: 0.10.8(vue-router@4.4.5)(vue@3.5.13)
+      unplugin-vue-router: 0.10.8(vue-router@4.5.0)(vue@3.5.13)
       unstorage: 1.13.1(ioredis@5.4.1)
       untyped: 1.5.1
       vue: 3.5.13(typescript@5.7.2)
       vue-bundle-renderer: 2.1.1
       vue-devtools-stub: 0.1.0
-      vue-router: 4.4.5(vue@3.5.13)
+      vue-router: 4.5.0(vue@3.5.13)
     transitivePeerDependencies:
       - '@azure/app-configuration'
       - '@azure/cosmos'
@@ -5687,6 +5689,7 @@ packages:
 
   /queue-tick@1.0.1:
     resolution: {integrity: sha512-kJt5qhMxoszgU/62PLP1CJytzd2NKetjSRnyuj31fDd3Rlcz3fzlFdFLD1SItunPwyqEOkca6GbV612BWfaBag==}
+    requiresBuild: true
     dev: true
 
   /radix3@1.1.2:
@@ -6139,6 +6142,7 @@ packages:
 
   /streamx@2.20.2:
     resolution: {integrity: sha512-aDGDLU+j9tJcUdPGOaHmVF1u/hhI+CsGkT02V3OKlHDV7IukOI+nTWAGkiZEKCO35rWN1wIr4tS7YFr1f4qSvA==}
+    requiresBuild: true
     dependencies:
       fast-fifo: 1.3.2
       queue-tick: 1.0.1
@@ -6411,6 +6415,7 @@ packages:
 
   /text-decoder@1.2.1:
     resolution: {integrity: sha512-x9v3H/lTKIJKQQe7RPQkLfKAnc9lUTkWDypIQgTzPJAq+5/GCDHonmshfvlsNSj58yyshbIJJDLmU15qNERrXQ==}
+    requiresBuild: true
     dev: true
 
   /thenify-all@1.6.0:
@@ -6577,7 +6582,7 @@ packages:
     engines: {node: '>= 10.0.0'}
     dev: true
 
-  /unplugin-vue-router@0.10.8(vue-router@4.4.5)(vue@3.5.13):
+  /unplugin-vue-router@0.10.8(vue-router@4.5.0)(vue@3.5.13):
     resolution: {integrity: sha512-xi+eLweYAqolIoTRSmumbi6Yx0z5M0PLvl+NFNVWHJgmE2ByJG1SZbrn+TqyuDtIyln20KKgq8tqmL7aLoiFjw==}
     peerDependencies:
       vue-router: ^4.4.0
@@ -6598,7 +6603,7 @@ packages:
       pathe: 1.1.2
       scule: 1.3.0
       unplugin: 1.16.0
-      vue-router: 4.4.5(vue@3.5.13)
+      vue-router: 4.5.0(vue@3.5.13)
       yaml: 2.6.1
     transitivePeerDependencies:
       - rollup
@@ -6980,8 +6985,8 @@ packages:
     resolution: {integrity: sha512-RutnB7X8c5hjq39NceArgXg28WZtZpGc3+J16ljMiYnFhKvd8hITxSWQSQ5bvldxMDU6gG5mkxl1MTQLXckVSQ==}
     dev: true
 
-  /vue-router@4.4.5(vue@3.5.13):
-    resolution: {integrity: sha512-4fKZygS8cH1yCyuabAXGUAsyi1b2/o/OKgu/RUb+znIYOxPRxdkytJEx+0wGcpBE1pX6vUgh5jwWOKRGvuA/7Q==}
+  /vue-router@4.5.0(vue@3.5.13):
+    resolution: {integrity: sha512-HDuk+PuH5monfNuY+ct49mNmkCRK4xJAV9Ts4z9UFc4rzdDnxQLyCMGGc8pKhZhHTVzfanpNwB/lwqevcBwI4w==}
     peerDependencies:
       vue: ^3.2.0
     dependencies:
