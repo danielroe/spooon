@@ -17,6 +17,6 @@
     "vue-router": "4.5.0"
   },
   "dependencies": {
-    "valibot": "^0.42.0"
+    "valibot": "^1.0.0"
   }
 }
