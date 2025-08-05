@@ -12,8 +12,8 @@
   "devDependencies": {
     "@nuxt/image": "1.11.0",
     "@nuxt/ui": "2.22.1",
-    "nuxt": "3.17.5",
-    "vue": "3.5.17",
+    "nuxt": "3.18.1",
+    "vue": "3.5.18",
     "vue-router": "4.5.1"
   },
   "dependencies": {
