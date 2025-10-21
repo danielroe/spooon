@@ -23,8 +23,8 @@ devDependencies:
     specifier: 3.5.22
     version: 3.5.22
   vue-router:
-    specifier: 4.5.1
-    version: 4.5.1(vue@3.5.22)
+    specifier: 4.6.3
+    version: 4.6.3(vue@3.5.22)
 
 packages:
 
@@ -5238,13 +5238,13 @@ packages:
       unctx: 2.4.1
       unimport: 5.5.0
       unplugin: 2.3.10
-      unplugin-vue-router: 0.15.0(@vue/compiler-sfc@3.5.22)(vue-router@4.5.1)(vue@3.5.22)
+      unplugin-vue-router: 0.15.0(@vue/compiler-sfc@3.5.22)(vue-router@4.6.3)(vue@3.5.22)
       unstorage: 1.17.1(db0@0.3.4)(ioredis@5.8.1)
       untyped: 2.0.0
       vue: 3.5.22
       vue-bundle-renderer: 2.2.0
       vue-devtools-stub: 0.1.0
-      vue-router: 4.5.1(vue@3.5.22)
+      vue-router: 4.6.3(vue@3.5.22)
     transitivePeerDependencies:
       - '@azure/app-configuration'
       - '@azure/cosmos'
@@ -7015,7 +7015,7 @@ packages:
       picomatch: 4.0.3
     dev: true
 
-  /unplugin-vue-router@0.15.0(@vue/compiler-sfc@3.5.22)(vue-router@4.5.1)(vue@3.5.22):
+  /unplugin-vue-router@0.15.0(@vue/compiler-sfc@3.5.22)(vue-router@4.6.3)(vue@3.5.22):
     resolution: {integrity: sha512-PyGehCjd9Ny9h+Uer4McbBjjib3lHihcyUEILa7pHKl6+rh8N7sFyw4ZkV+N30Oq2zmIUG7iKs3qpL0r+gXAaQ==}
     peerDependencies:
       '@vue/compiler-sfc': ^3.5.17
@@ -7040,7 +7040,7 @@ packages:
       tinyglobby: 0.2.15
       unplugin: 2.3.10
       unplugin-utils: 0.2.5
-      vue-router: 4.5.1(vue@3.5.22)
+      vue-router: 4.6.3(vue@3.5.22)
       yaml: 2.8.1
     transitivePeerDependencies:
       - typescript
@@ -7392,10 +7392,10 @@ packages:
     resolution: {integrity: sha512-RutnB7X8c5hjq39NceArgXg28WZtZpGc3+J16ljMiYnFhKvd8hITxSWQSQ5bvldxMDU6gG5mkxl1MTQLXckVSQ==}
     dev: true
 
-  /vue-router@4.5.1(vue@3.5.22):
-    resolution: {integrity: sha512-ogAF3P97NPm8fJsE4by9dwSYtDwXIY1nFY9T6DyQnGHd1E2Da94w9JIolpe42LJGIl0DwOHBi8TcRPlPGwbTtw==}
+  /vue-router@4.6.3(vue@3.5.22):
+    resolution: {integrity: sha512-ARBedLm9YlbvQomnmq91Os7ck6efydTSpRP3nuOKCvgJOHNrhRoJDSKtee8kcL1Vf7nz6U+PMBL+hTvR3bTVQg==}
     peerDependencies:
-      vue: ^3.2.0
+      vue: ^3.5.0
     dependencies:
       '@vue/devtools-api': 6.6.4
       vue: 3.5.22
