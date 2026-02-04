@@ -23,8 +23,8 @@ devDependencies:
     specifier: 3.5.27
     version: 3.5.27
   vue-router:
-    specifier: 4.6.4
-    version: 4.6.4(vue@3.5.27)
+    specifier: 5.0.2
+    version: 5.0.2(@vue/compiler-sfc@3.5.27)(vue@3.5.27)
 
 packages:
 
@@ -2924,6 +2924,12 @@ packages:
 
   /@vue/devtools-api@6.6.4:
     resolution: {integrity: sha512-sGhTPMuXqZ1rVOk32RylztWkfXTRhuS7vgAKv0zjqk8gbsHkJ7xfFf+jbySxt7tWObEJwyKaHMikV/WGDiQm8g==}
+    dev: true
+
+  /@vue/devtools-api@8.0.5:
+    resolution: {integrity: sha512-DgVcW8H/Nral7LgZEecYFFYXnAvGuN9C3L3DtWekAncFBedBczpNW8iHKExfaM559Zm8wQWrwtYZ9lXthEHtDw==}
+    dependencies:
+      '@vue/devtools-kit': 8.0.5
     dev: true
 
   /@vue/devtools-core@8.0.5(vite@7.3.1)(vue@3.5.27):
@@ -7192,6 +7198,15 @@ packages:
       webpack-virtual-modules: 0.6.2
     dev: true
 
+  /unplugin@3.0.0:
+    resolution: {integrity: sha512-0Mqk3AT2TZCXWKdcoaufeXNukv2mTrEZExeXlHIOZXdqYoHHr4n51pymnwV8x2BOVxwXbK2HLlI7usrqMpycdg==}
+    engines: {node: ^20.19.0 || >=22.12.0}
+    dependencies:
+      '@jridgewell/remapping': 2.3.5
+      picomatch: 4.0.3
+      webpack-virtual-modules: 0.6.2
+    dev: true
+
   /unstorage@1.17.4(db0@0.3.4)(ioredis@5.9.2):
     resolution: {integrity: sha512-fHK0yNg38tBiJKp/Vgsq4j0JEsCmgqH58HAn707S7zGkArbZsVr/CwINoi+nh3h98BRCwKvx1K3Xg9u3VV83sw==}
     peerDependencies:
@@ -7533,6 +7548,42 @@ packages:
     dependencies:
       '@vue/devtools-api': 6.6.4
       vue: 3.5.27
+    dev: true
+
+  /vue-router@5.0.2(@vue/compiler-sfc@3.5.27)(vue@3.5.27):
+    resolution: {integrity: sha512-YFhwaE5c5JcJpNB1arpkl4/GnO32wiUWRB+OEj1T0DlDxEZoOfbltl2xEwktNU/9o1sGcGburIXSpbLpPFe/6w==}
+    peerDependencies:
+      '@pinia/colada': '>=0.21.2'
+      '@vue/compiler-sfc': ^3.5.17
+      pinia: ^3.0.4
+      vue: ^3.5.0
+    peerDependenciesMeta:
+      '@pinia/colada':
+        optional: true
+      '@vue/compiler-sfc':
+        optional: true
+      pinia:
+        optional: true
+    dependencies:
+      '@babel/generator': 7.28.6
+      '@vue-macros/common': 3.1.2(vue@3.5.27)
+      '@vue/compiler-sfc': 3.5.27
+      '@vue/devtools-api': 8.0.5
+      ast-walker-scope: 0.8.3
+      chokidar: 5.0.0
+      json5: 2.2.3
+      local-pkg: 1.1.2
+      magic-string: 0.30.21
+      mlly: 1.8.0
+      muggle-string: 0.4.1
+      pathe: 2.0.3
+      picomatch: 4.0.3
+      scule: 1.3.0
+      tinyglobby: 0.2.15
+      unplugin: 3.0.0
+      unplugin-utils: 0.3.1
+      vue: 3.5.27
+      yaml: 2.8.2
     dev: true
 
   /vue@3.5.27:
