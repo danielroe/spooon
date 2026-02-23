@@ -23,8 +23,8 @@ devDependencies:
     specifier: 3.5.28
     version: 3.5.28
   vue-router:
-    specifier: 5.0.2
-    version: 5.0.2(@vue/compiler-sfc@3.5.28)(vue@3.5.28)
+    specifier: 5.0.3
+    version: 5.0.3(@vue/compiler-sfc@3.5.28)(vue@3.5.28)
 
 packages:
 
@@ -4664,6 +4664,7 @@ packages:
     resolution: {integrity: sha512-eljcgEDlEns/7AXFosB5K/2nCM4P7FQPkGc/DWLy5rmFEWvZayGrik1d9/QIY5nJ4f9YsVvBkA6kJpHn9rISdQ==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     hasBin: true
+    requiresBuild: true
     dev: true
 
   /is-extglob@2.1.1:
@@ -7539,8 +7540,8 @@ packages:
       vue: 3.5.28
     dev: true
 
-  /vue-router@5.0.2(@vue/compiler-sfc@3.5.28)(vue@3.5.28):
-    resolution: {integrity: sha512-YFhwaE5c5JcJpNB1arpkl4/GnO32wiUWRB+OEj1T0DlDxEZoOfbltl2xEwktNU/9o1sGcGburIXSpbLpPFe/6w==}
+  /vue-router@5.0.3(@vue/compiler-sfc@3.5.28)(vue@3.5.28):
+    resolution: {integrity: sha512-nG1c7aAFac7NYj8Hluo68WyWfc41xkEjaR0ViLHCa3oDvTQ/nIuLJlXJX1NUPw/DXzx/8+OKMng045HHQKQKWw==}
     peerDependencies:
       '@pinia/colada': '>=0.21.2'
       '@vue/compiler-sfc': ^3.5.17
